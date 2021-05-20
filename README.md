@@ -8,11 +8,15 @@ The situation
 
 Something like index.html on "server-b":
 
+
+```
 <script src="https://server-a.de/test.nocache.js"></script>
 
 <script src="hello.js"></script>
 ...
 ...
+
+```
 
 The problem:
 
