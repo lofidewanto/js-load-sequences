@@ -3,14 +3,14 @@ Example for JS Load Sequences
 
 The situation:
 
-    I have a JS file "test.nocache.js" on server "server-a".
+    I have a JS file "load-test.nocache.js" on server "server-a".
     On "server-b" I have an HTML file and I use the JS file from "server-a".
 
 Something like index.html on "server-b":
 
 
 ```
-<script src="https://server-a.de/test.nocache.js"></script>
+<script src="https://server-a.de/load-test.nocache.js"></script>
 
 <script src="hello.js"></script>
 ...

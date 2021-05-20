@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+   <title>Test Webapp</title>
+
+   <!-- This is a JavaScript from server-a -->
+   <script language="javascript" src="http://localhost:9090/servera/testcalculator-withwait.js"></script>
+
+</head>
+<body>
+   <!-- Here you use the Calculator class as usual in JavaScript -->
+   <button onclick="console.log('Result: ' + new Calculator('From HTML').calculateSum([10, 20, 30]));">Calculate!</button>
+
+   <div id="new">
+      <p id="p1">Tutorix</p>
+      <p id="p2">Tutorialspoint</p>
+   </div>
+
+   <div id="panel"></div>
+</body>
+</html>
