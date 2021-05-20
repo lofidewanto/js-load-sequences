@@ -1,7 +1,7 @@
 # js-load-sequences
 Example for JS Load Sequences
 
-The situation
+The situation:
 
     I have a JS file "test.nocache.js" on server "server-a".
     On "server-b" I have an HTML file and I use the JS file from "server-a".
